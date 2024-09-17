@@ -651,6 +651,23 @@ footer {
     height: 200px;
 }
 
+.menu-section-paper {
+    background-color: #f4ede5;
+    /* Color de fondo para simular papel */
+    padding: 40px;
+    /* Espacio dentro de la "hoja" */
+    border-radius: 8px;
+    /* Bordes redondeados para un efecto más suave */
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra suave alrededor */
+    max-width: 900px;
+    /* Anchura máxima para la sección */
+    margin: 40px auto;
+    /* Centrar la "hoja" horizontalmente con espacio alrededor */
+    border: 1px solid #ddd;
+    /* Borde ligero para definir la hoja */
+}
+
 
 /*=====  End of Special Dishes  ======*/
 
