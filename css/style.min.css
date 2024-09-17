@@ -141,6 +141,10 @@ a:hover {
 @media (min-width: 600px) {
     #navbar-header {
         position: relative;
+        height: 100px;
+    }
+    .navbar {
+        height: 50px;
     }
 }
 
@@ -663,17 +667,15 @@ footer {
     .hero {
         height: 100%;
     }
-    .boxed-page {
+    /* .boxed-page {
         padding-top: 100px;
-    }
+    } */
     #navbar-header {
-        position: fixed;
         top: 0;
         height: auto;
         width: 100%;
         background-color: #fff;
         z-index: 11;
-        padding-top: 15px;
         padding-bottom: 15px;
     }
     #navbar-header .dropdown-menu {
@@ -684,7 +686,7 @@ footer {
         background: #fff !important;
     }
     .only-mobile {
-        display: block !important;
+        display: none !important;
     }
     .only-desktop {
         display: none !important;
@@ -696,8 +698,15 @@ footer {
         margin-bottom: 30px;
     }
     .hero-left {
+        align-items: center;
+        justify-content: center;
         padding-top: 30px;
         padding-bottom: 30px;
+        text-align: center;
+    }
+    .hero-info {
+        align-items: center;
+        justify-content: center;
     }
 }
 
