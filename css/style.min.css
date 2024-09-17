@@ -114,7 +114,8 @@ a:hover {
 }
 
 .navbar-brand-center img {
-    height: 50px;
+    height: 100px;
+    width: auto;
 }
 
 .footer-logo {
@@ -126,20 +127,14 @@ a:hover {
 }
 
 #navbar-header {
-    padding: 15px 0;
-    background-color: #fff;
-    /* Asegura que el fondo de la barra sea blanco */
-    position: relative;
-    z-index: 10;
+    height: 150px;
 }
 
-#navbar-header .navbar-brand img {
-    height: 150px;
-    /* Ajusta el tamaño de la imagen */
-    max-width: 100%;
-    /* Asegura que la imagen no se desborde */
-    object-fit: contain;
-    /* Mantiene las proporciones de la imagen */
+#navbar-header .navbar-nav .dropdown-menu {
+    border: none;
+    border-bottom: 2px solid #f34949;
+    border-radius: 0 !important;
+    box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15);
 }
 
 @media (min-width: 1024px) {
@@ -154,10 +149,6 @@ a:hover {
     #navbar-header .dropdown:hover .dropdown-menu {
         display: block;
         opacity: 1;
-    }
-    #navbar-header .navbar-brand img {
-        height: 80px;
-        /* Tamaño más pequeño para pantallas móviles */
     }
 }
 
