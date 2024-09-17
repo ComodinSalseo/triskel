@@ -3,6 +3,36 @@
  *	URL: https://gettemplates.co
  */
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Impide el scroll horizontal */
+    width: 100%;
+}
+
+
+/* Asegúrate de que los contenedores no excedan el ancho de la pantalla */
+
+.container {
+    max-width: 100%;
+    /* Evita que el contenedor se desborde */
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    /* Asegura que el padding se incluya dentro del ancho total */
+}
+
+
+/* También ajusta las imágenes para que no causen desbordamientos */
+
+img {
+    max-width: 100%;
+    /* Las imágenes no deberían superar el 100% del ancho del contenedor */
+    height: auto;
+}
+
 html {
     overflow-x: hidden;
 }
