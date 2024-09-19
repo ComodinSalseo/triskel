@@ -119,6 +119,12 @@ a:hover {
         padding-top: 130px;
         padding-bottom: 130px;
     }
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1200px) {
