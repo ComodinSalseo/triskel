@@ -698,11 +698,12 @@ a:hover {
     color: #f34949;
 }
 
-
-/* .dishes-text {
-    margin-right: 10px;
-    padding-left: 5px;
-} */
+.dishes-text {
+    /* margin-right: 10px; */
+    /* padding-left: -5px; */
+    position: relative;
+    left: -20px;
+}
 
 footer {
     margin-top: 30px;
