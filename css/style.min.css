@@ -3,6 +3,11 @@
  *	URL: https://gettemplates.co
  */
 
+.burg {
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .cursiva {
     font-style: italic;
     font-size: small;
@@ -702,7 +707,6 @@ a:hover {
     /* margin-right: 10px; */
     /* padding-left: -5px; */
     position: relative;
-    left: -20px;
 }
 
 footer {
