@@ -3,6 +3,32 @@
  *	URL: https://gettemplates.co
  */
 
+.hero {
+    padding-top: 50px;
+}
+
+.foot {
+    height: 200px;
+}
+
+.logohead {}
+
+.head {
+    height: 300px;
+}
+
+.logohead {
+    height: 50px;
+}
+
+.section-content {
+    padding: 55px;
+}
+
+.margen {
+    padding-left: 55px;
+}
+
 .burg {
     font-size: 52px;
     font-weight: bold;
@@ -17,6 +43,15 @@
 @media (max-width: 992px) {
     .dishes-text {
         padding: 0;
+    }
+    .section-content {
+        padding: 0;
+    }
+    .head {
+        margin-top: -52px;
+    }
+    .foot {
+        height: 90px;
     }
 }
 
@@ -308,6 +343,7 @@ a:hover {
 
 .hero-carousel .owl-prev {
     border-right: 1px solid #f7f8f9;
+    /* border-radius: 15px; */
 }
 
 .hero-carousel .owl-nav {
@@ -369,6 +405,7 @@ a:hover {
 }
 
 .menus {
+    height: 150px;
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px dashed #ccc;
