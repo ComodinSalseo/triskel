@@ -3,6 +3,11 @@
  *	URL: https://gettemplates.co
  */
 
+.col-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .hero {
     padding-top: 50px;
 }
