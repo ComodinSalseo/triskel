@@ -3,6 +3,10 @@
  *	URL: https://gettemplates.co
  */
 
+.btn {
+    width: 250px;
+}
+
 .col-8 {
     padding-left: 0;
     padding-right: 0;
